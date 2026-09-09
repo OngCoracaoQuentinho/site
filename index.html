@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ongcq</title>
+    <meta name="description" content="Template placeholder para site de ONG.">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<section class="banner" aria-hidden="true"></section>
+
+<div class="site">
+
+    <!-- HERO -->
+    <div class="peca peca-hero" data-peca>
+        <div class="peca-inner hero-inner">
+            <div class="hero-texto">
+                <img src="img/logo.webp" alt="Logo da ONG" class="hero-logo">
+                <p>Promovemos inclusão, acolhimento e qualidade de vida para quem precisa. Descrição genérica da sua causa, missão e impacto.</p>
+                <button class="btn btn-primary" data-modal="modal-doacao"><i class="nf nf-md-heart"></i> Quero doar</button>
+            </div>
+            <div class="hero-foto">
+                <img src="img/arte.webp" alt="Arte do hero" class="hero-img">
+                <div class="puzzle-deco pd-1"></div>
+                <div class="puzzle-deco pd-2"></div>
+                <div class="puzzle-deco pd-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PILARES -->
+    <div class="peca peca-pilares" data-peca>
+        <div class="peca-inner">
+            <section class="pillars" aria-labelledby="pillars-title">
+                <h2 id="pillars-title"><i class="nf nf-md-puzzle"></i> Nossos Pilares</h2>
+                <div class="pillars-row">
+                    <article class="pillar-item" data-modal="modal-pilar1">
+                        <div class="pillar-brush" style="--rot:-1deg" aria-hidden="true"></div>
+                        <div class="pillar-icon"><i class="nf nf-md-puzzle" style="font-size:44px"></i></div>
+                        <h3 class="pillar-title">Pilar Um</h3>
+                        <p class="pillar-desc">Acolhimento e cuidado com cada história.</p>
+                    </article>
+                    <div class="pillar-divider" aria-hidden="true"></div>
+                    <article class="pillar-item" data-modal="modal-pilar2">
+                        <div class="pillar-brush" style="--rot:0.8deg" aria-hidden="true"></div>
+                        <div class="pillar-icon"><i class="nf nf-md-heart" style="font-size:44px"></i></div>
+                        <h3 class="pillar-title">Pilar Dois</h3>
+                        <p class="pillar-desc">Solidariedade que transforma em esperança.</p>
+                    </article>
+                    <div class="pillar-divider" aria-hidden="true"></div>
+                    <article class="pillar-item" data-modal="modal-pilar3">
+                        <div class="pillar-brush" style="--rot:-0.5deg" aria-hidden="true"></div>
+                        <div class="pillar-icon"><i class="nf nf-md-book_open" style="font-size:44px"></i></div>
+                        <h3 class="pillar-title">Pilar Três</h3>
+                        <p class="pillar-desc">Educação que abre novos horizontes.</p>
+                    </article>
+                    <div class="pillar-divider" aria-hidden="true"></div>
+                    <article class="pillar-item" data-modal="modal-pilar4">
+                        <div class="pillar-brush" style="--rot:1deg" aria-hidden="true"></div>
+                        <div class="pillar-icon"><i class="nf nf-md-account_multiple" style="font-size:44px"></i></div>
+                        <h3 class="pillar-title">Pilar Quatro</h3>
+                        <p class="pillar-desc">Comunidade unida em torno da causa.</p>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- SOBRE -->
+    <div class="peca peca-sobre" id="sobre" data-peca>
+        <div class="peca-inner">
+            <div class="sobre-grid">
+                <div class="sobre-txt">
+                    <h2><i class="nf nf-md-account"></i> Quem Somos</h2>
+                    <p>A ONG é dedicada à sua causa, oferecendo apoio, orientação e oportunidades para que cada indivíduo possa desenvolver seu potencial e viver com mais autonomia, bem-estar e dignidade.</p>
+                    <a href="https://www.instagram.com/ongcoracaoquentinhorecife" target="_blank" rel="noopener" class="btn btn-primary"><i class="nf nf-md-arrow_right"></i> Saiba mais</a>
+                    <div class="sobre-stats">
+                        <div class="sobre-stat"><strong data-count="500" data-prefix="+">0</strong><span>Pessoas atendidas</span></div>
+                        <div class="sobre-stat"><strong data-count="120" data-prefix="+">0</strong><span>Famílias apoiadas</span></div>
+                        <div class="sobre-stat"><strong data-count="30" data-prefix="+">0</strong><span>Projetos realizados</span></div>
+                        <div class="sobre-stat"><strong data-count="10" data-prefix="+">0</strong><span>Anos de atuação</span></div>
+                    </div>
+                </div>
+                <div class="sobre-foto">
+                    <div class="celular">
+                        <span class="celular-notch"></span>
+                        <video src="img/video.mp4" poster="img/video-poster.jpg" playsinline preload="metadata"></video>
+                        <button class="celular-play" aria-label="Play"><i class="nf nf-md-play"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJETOS -->
+    <div class="peca peca-projetos" id="projetos" data-peca>
+        <div class="peca-inner">
+            <h2><i class="nf nf-md-folder_multiple"></i> Nossos Projetos</h2>
+            <p class="sub">Ações que geram oportunidades e promovem impacto de verdade.</p>
+            <div class="projetos-colunas">
+                <div class="projetos-esq">
+                    <img src="img/projetos.webp" alt="Nossos projetos" class="projetos-img">
+                    <div class="puzzle-deco pd-1"></div>
+                    <div class="puzzle-deco pd-2"></div>
+                    <div class="puzzle-deco pd-3"></div>
+                </div>
+                <div class="projetos-dir">
+                    <div class="projetos-grid">
+                        <div class="proj-card"><h3><i class="nf nf-md-food"></i> Refeições Solidárias</h3><p>Entrega de refeições prontas com acolhimento e escuta afetiva.</p></div>
+                        <div class="proj-card"><h3><i class="nf nf-md-basket"></i> Cestas Básicas</h3><p>Distribuição de alimentos às comunidades locais e adjacentes.</p></div>
+                        <div class="proj-card"><h3><i class="nf nf-md-scissors_cutting"></i> Artesanato Bongi</h3><p>Aulas de artesanato para meninas, incentivando o empreendedorismo.</p></div>
+                        <div class="proj-card"><h3><i class="nf nf-md-book_open_page_variant"></i> Eu Lidero</h3><p>Estudos sobre desenvolvimento socioemocional infantil com o livro "Eu Lidero".</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GALERIA -->
+    <div class="peca peca-galeria" id="galeria" data-peca>
+        <div class="peca-inner">
+            <h2><i class="nf nf-md-camera"></i> Galeria</h2>
+            <p class="sub">Momentos que capturam nossa essência. Siga-nos no Instagram <a href="https://www.instagram.com/ongcoracaoquentinhorecife" target="_blank" rel="noopener">@ongcoracaoquentinhorecife</a></p>
+            <div class="galeria-grid">
+                <a href="https://www.instagram.com/ongcoracaoquentinhorecife" target="_blank" rel="noopener" class="galeria-item"><img src="img/galeria1.webp" alt="Foto 1"><span class="galeria-ico"><i class="nf nf-md-instagram"></i></span></a>
+                <a href="https://www.instagram.com/ongcoracaoquentinhorecife" target="_blank" rel="noopener" class="galeria-item"><img src="img/galeria2.webp" alt="Foto 2"><span class="galeria-ico"><i class="nf nf-md-instagram"></i></span></a>
+                <a href="https://www.instagram.com/ongcoracaoquentinhorecife" target="_blank" rel="noopener" class="galeria-item"><img src="img/galeria3.webp" alt="Foto 3"><span class="galeria-ico"><i class="nf nf-md-instagram"></i></span></a>
+                <a href="https://www.instagram.com/ongcoracaoquentinhorecife" target="_blank" rel="noopener" class="galeria-item"><img src="img/galeria4.webp" alt="Foto 4"><span class="galeria-ico"><i class="nf nf-md-instagram"></i></span></a>
+                <a href="https://www.instagram.com/ongcoracaoquentinhorecife" target="_blank" rel="noopener" class="galeria-item"><img src="img/galeria5.webp" alt="Foto 5"><span class="galeria-ico"><i class="nf nf-md-instagram"></i></span></a>
+                <a href="https://www.instagram.com/ongcoracaoquentinhorecife" target="_blank" rel="noopener" class="galeria-item"><img src="img/galeria6.webp" alt="Foto 6"><span class="galeria-ico"><i class="nf nf-md-instagram"></i></span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- DIRETORIA -->
+    <div class="peca peca-diretoria" id="diretoria" data-peca>
+        <div class="peca-inner">
+            <h2><i class="nf nf-md-account_tie"></i> Nossa Diretoria</h2>
+            <div class="diretoria-colunas">
+                <div class="diretoria-foto">
+                    <img src="img/diretora.webp" alt="Diretora da ONG">
+                    <div class="puzzle-deco pd-1"></div>
+                    <div class="puzzle-deco pd-2"></div>
+                </div>
+                <div class="diretoria-txt">
+                    <h3><i class="nf nf-md-handshake"></i> Quem conduz a ONG</h3>
+                    <p><i class="nf nf-md-heart"></i> A ONG é guiada por uma diretoria apaixonada e comprometida, liderada pela nossa fundadora, que dedica a vida a construir um mundo mais acolhedor para a nossa causa. Com transparência, escuta ativa e amor no que faz, cuidamos para que cada projeto saia do papel e transforme vidas de verdade.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AGRADECIMENTOS -->
+    <div class="peca peca-agrad" id="ajudar" data-peca>
+        <div class="peca-inner">
+            <h2><i class="nf nf-md-hand_heart"></i> Agradecimentos</h2>
+            <div class="agrad-colunas">
+                <div class="agrad-txt">
+                    <h3><i class="nf nf-md-party_popper"></i> Muito obrigado!</h3>
+                    <p><i class="nf nf-md-heart"></i> Cada projeto, cada conquista e cada vida transformada existem porque há gente que doa o seu tempo e o seu coração. Às famílias, aos amigos e a cada pessoa que sustenta a nossa ONG: essa vitória é de todos vocês.</p>
+                    <button class="btn btn-primary" data-modal="modal-voluntario" style="margin-top:16px"><i class="nf nf-md-hand_heart"></i> Seja voluntário</button>
+                </div>
+                <div class="agrad-img">
+                    <img src="img/agradecimento.webp" alt="Imagem de agradecimento" class="agrad-foto">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="peca peca-footer" data-peca>
+        <div class="peca-inner">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo"><i class="nf nf-md-puzzle"></i> CORAÇÃO QUENTINHO</div>
+                    <p><i class="nf nf-md-puzzle"></i> Sua missão em uma frase.</p>
+                </div>
+                <div class="footer-links">
+                    <h4><i class="nf nf-md-navigation"></i> Navegação</h4>
+                    <a href="#sobre"><i class="nf nf-md-account"></i> Quem Somos</a>
+                    <a href="#projetos"><i class="nf nf-md-folder"></i> Projetos</a>
+                    <a href="#galeria"><i class="nf nf-md-camera"></i> Galeria</a>
+                    <a href="#diretoria"><i class="nf nf-md-account_tie"></i> Diretoria</a>
+                    <a href="#ajudar"><i class="nf nf-md-heart"></i> Como Ajudar</a>
+                </div>
+                <div class="footer-contato">
+                    <h4><i class="nf nf-md-phone"></i> Contato</h4>
+                    <p><i class="nf nf-md-whatsapp"></i> <a href="https://wa.me/5581987331912" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none">(81) 98733-1912</a></p>
+                    <p><i class="nf nf-md-email"></i> coracaoquentinhorecife@gmail.com</p>
+                    <p><i class="nf nf-md-map_marker"></i> Recife - PE</p>
+                </div>
+            </div>
+            <p class="footer-copy"><i class="nf nf-md-copyright"></i> 2026 Coração Quentinho. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</div>
+
+<!-- MODAIS -->
+<div class="modal-fundo" id="modal-doacao" role="dialog" aria-modal="true">
+    <div class="modal-caixa modal-pix">
+        <button class="modal-fechar" aria-label="Fechar">&times;</button>
+        <p class="pix-msg"><strong><i class="nf nf-md-cash"></i> Faça uma doação de qualquer valor.</strong><br>
+            <i class="nf nf-md-heart"></i> Cada contribuição, do tamanho que você puder, ajuda a transformar vidas. 💚</p>
+        <span class="pix-chave">81987331912</span>
+        <button class="btn btn-primary copiar-pix" type="button" data-chave="+5581987331912"><i class="nf nf-md-content_copy"></i><span class="chave-texto">Copiar chave PIX</span></button>
+    </div>
+</div>
+
+<div class="modal-fundo" id="modal-voluntario" role="dialog" aria-modal="true">
+    <div class="modal-caixa modal-doc">
+        <button class="modal-fechar" aria-label="Fechar">&times;</button>
+        <header class="doc-topo">
+            <span class="doc-badge"><i class="nf nf-md-book_open_page_variant"></i> Guia do voluntariado</span>
+            <h2><i class="nf nf-md-book_open_page_variant"></i> Como ser voluntário(a)</h2>
+            <p>Não existe um jeito único de ajudar — existe o seu. Veja as formas de contribuir:</p>
+        </header>
+        <section class="doc-secao">
+            <h3><span>01</span> <i class="nf nf-md-cash"></i> Doando</h3>
+            <p>Contribuições financeiras mantêm os projetos e o dia a dia da ONG. Todo valor vira impacto concreto para quem precisa.</p>
+        </section>
+        <section class="doc-secao">
+            <h3><span>02</span> <i class="nf nf-md-brush"></i> Com habilidades</h3>
+            <p> Profissional ou amador, seu talento tem lugar aqui:</p>
+            <ul class="doc-chips">
+                <li><i class="nf nf-md-palette"></i> Design</li>
+                <li><i class="nf nf-md-brush"></i> Arte</li>
+                <li><i class="nf nf-md-laptop"></i> Tecnologia</li>
+                <li><i class="nf nf-md-bullhorn"></i> Comunicação</li>
+                <li><i class="nf nf-md-school"></i> Educação</li>
+                <li><i class="nf nf-md-camera"></i> Fotografia</li>
+                <li><i class="nf nf-md-party_popper"></i> Eventos</li>
+                <li><i class="nf nf-md-lightbulb"></i> Qualquer conhecimento que queira compartilhar</li>
+            </ul>
+        </section>
+        <section class="doc-secao">
+            <h3><span>03</span> <i class="nf nf-md-clock"></i> Com tempo</h3>
+            <p>Participando das atividades, ajudando na logística ou acompanhando os encontros — sua presença já é apoio.</p>
+        </section>
+        <section class="doc-secao">
+            <h3><span>04</span> <i class="nf nf-md-flag_checkered"></i> Como começar</h3>
+            <ol class="doc-passos">
+                <li>Escolha como quer ajudar: doando, com uma habilidade ou com tempo.</li>
+                <li>Fale com a gente pelo WhatsApp contando do seu interesse.</li>
+                <li>A gente alinha os próximos passos com você.</li>
+            </ol>
+        </section>
+        <a href="https://wa.me/5581987331912" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:8px"><i class="nf nf-md-whatsapp"></i> Quero ajudar — falar com a ONG</a>
+    </div>
+</div>
+
+<div class="modal-fundo" id="modal-pilar1" role="dialog" aria-modal="true">
+    <div class="modal-caixa">
+        <button class="modal-fechar" aria-label="Fechar">&times;</button>
+        <h3 class="modal-titulo"><i class="nf nf-md-puzzle"></i> Pilar Um</h3>
+        <p class="modal-texto">Acreditar que juntos somos mais fortes é o nosso ponto de partida. Este pilar sustenta o acolhimento de cada pessoa que chega até nós, oferecendo escuta, afeto e caminhos concretos para recomeçar. Aqui, ninguém fica para trás: cada história é ouvida com respeito e cada passo, por menor que seja, é celebrado.</p>
+    </div>
+</div>
+
+<div class="modal-fundo" id="modal-pilar2" role="dialog" aria-modal="true">
+    <div class="modal-caixa">
+        <button class="modal-fechar" aria-label="Fechar">&times;</button>
+        <h3 class="modal-titulo"><i class="nf nf-md-heart"></i> Pilar Dois</h3>
+        <p class="modal-texto">O coração é o que move a nossa causa. Este pilar representa a solidariedade em prática: gestos simples que chegam longe, doações que viram esperança e laços que se transformam em cuidado. Acreditamos que, com presença e generosidade, conseguimos aquecer quem mais precisa.</p>
+    </div>
+</div>
+
+<div class="modal-fundo" id="modal-pilar3" role="dialog" aria-modal="true">
+    <div class="modal-caixa">
+        <button class="modal-fechar" aria-label="Fechar">&times;</button>
+        <h3 class="modal-titulo"><i class="nf nf-md-book_open"></i> Pilar Três</h3>
+        <p class="modal-texto">Transformar realidades passa pela educação e pelo conhecimento. Este pilar investe em qualificação, informação e oportunidades de aprendizado, para que cada pessoa descubra e desenvolva o seu próprio potencial. Quando o saber chega, o mundo se abre — e todos crescemos juntos.</p>
+    </div>
+</div>
+
+<div class="modal-fundo" id="modal-pilar4" role="dialog" aria-modal="true">
+    <div class="modal-caixa">
+        <button class="modal-fechar" aria-label="Fechar">&times;</button>
+        <h3 class="modal-titulo"><i class="nf nf-md-account_star"></i> Pilar Quatro</h3>
+        <p class="modal-texto">Comunidade é quando as mãos se juntam. Este pilar fortalece os vínculos entre as pessoas, promove o espírito de equipe e valoriza cada voluntário que dedica seu tempo e seu talento. Juntos, construímos uma rede de apoio que abraça a cidade e transforma vidas de verdade.</p>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
